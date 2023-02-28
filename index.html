@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The PepperMint</title>
+    <script type="text/javascript" defer src="./scripts/scripts.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <form
+      name="candyForm"
+      method="get"
+      onsubmit="return formSubmit();"
+      action="#"
+    >
+      <div class="header">
+        <img src="./images/logo.png" />
+        <h1>The PepperMint</h1>
+        <h5>Candies and Toffees with spicy mint</h5>
+      </div>
+      <div class="product-name"><h2>Products</h2></div>
+      <div>
+        <table class="products">
+          <tr>
+            <td><label>PepperMint Glass Candy box ($4)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="glassCandyBox"
+                name="glassCandyBox"
+              />
+            </td>
+            <td><label>PepperMint Gummy Bears box ($5)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="gummyBear"
+                name="gummyBear"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>PepperMint Candy Cane box ($6)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="candyCane"
+                name="candyCane"
+              />
+            </td>
+            <td><label>PepperMint BubbleGum box ($7)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="bubbleGum"
+                name="bubbleGum"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>PepperMint Lollipop Candy box ($8)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="lollipopCandy"
+                name="lollipopCandy"
+              />
+            </td>
+            <td><label>PepperMint cake lollipop box ($10)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="cakeLollipop"
+                name="cakeLollipop"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>PepperMint fudge lollipop box ($12)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="fudgeLollipop"
+                name="fudgeLollipop"
+              />
+            </td>
+            <td><label>PepperMint Assorted Candy box ($15)</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="0"
+                id="assortedCandy"
+                name="assortedCandy"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="customer-details-name"><h2>Customer Details</h2></div>
+      <div>
+        <table class="customer-details">
+          <tr>
+            <td><label>Name</label></td>
+            <td>
+              <input
+                type="text"
+                size="40"
+                placeholder="Your First Name"
+                id="name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Phone</label></td>
+            <td>
+              <input
+                type="text"
+                size="40"
+                placeholder="xxx-xxx-xxxx"
+                id="phone"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Credit Card Number</label></td>
+            <td>
+              <input
+                type="text"
+                size="40"
+                placeholder="xxxx-xxxx-xxxx-xxxx"
+                id="creditCardNumber"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Credit Card Expiry Month</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="MM"
+                id="creditCardExpiryMonth"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Credit Card Expiry Year</label></td>
+            <td>
+              <input
+                type="text"
+                size="10"
+                placeholder="YYYY"
+                id="creditCardExpiryYear"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <center>
+          <input class="submit-button" type="submit" value="Checkout" />
+        </center>
+      </div>
+      <div id="output"></div>
+    </form>
+  </body>
+  <footer>&copy; Copyright 2023 | The PepperMint</footer>
+</html>
